@@ -1,4 +1,4 @@
-# Game-Snake-Game
+# Game-Hungry Snake
 
 ## Snake: Portal Edition 🐍✨
 
