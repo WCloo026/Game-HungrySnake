@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Snake Game - Classic UI</title>
+    <title>Snake: Portal Edition</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -14,10 +14,10 @@
         <div class="hunger-bar-wrapper">
             <div id="hungerBar"></div>
         </div>
+        <button id="muteBtn" title="Toggle Sound">🔊</button>
     </div>
 
     <div id="game-wrapper">
-        <!-- Floating countdown for last 5 seconds -->
         <div id="hunger-popup" class="hidden">5</div>
         
         <div id="overlay">
@@ -33,6 +33,10 @@
     </div>
 
     <div class="hint" id="gameHint">Press Play, then any direction to start!</div>
+
+    <audio id="appleSound" src="assets/Apple.mp3"></audio>
+    <audio id="bgm" src="assets/Game BGM.mp3" loop></audio>
+    <audio id="gameOverSound" src="assets/Game Over.mp3"></audio>
 
     <script src="script.js"></script>
 </body>
